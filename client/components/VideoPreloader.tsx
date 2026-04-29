@@ -107,8 +107,8 @@ export default function VideoPreloader({ isExiting = false, onLogoTransition, is
           >
             <source
               src={isMobile 
-                ? "https://vz-a2c5d962-9e6.b-cdn.net/8dccc254-d9b7-4476-bf4d-6d2638e9f248/play_480p.mp4"
-                : "https://vz-a2c5d962-9e6.b-cdn.net/8dccc254-d9b7-4476-bf4d-6d2638e9f248/play_480p.mp4"
+                ? "https://vz-32907a33-0f1.b-cdn.net/316cbe69-b0e3-4bfe-a111-95d7cbf6a77d/play_360p.mp4"
+                : "https://vz-32907a33-0f1.b-cdn.net/316cbe69-b0e3-4bfe-a111-95d7cbf6a77d/play_360p.mp4"
               }
               type="video/mp4"
             />
@@ -126,7 +126,7 @@ export default function VideoPreloader({ isExiting = false, onLogoTransition, is
           }`}>
             <img
               src="/logo.png"
-              alt="Global Yoga Studio"
+              alt="E-Yoga World"
               className="w-32 h-32 object-contain drop-shadow-2xl"
             />
           </div>

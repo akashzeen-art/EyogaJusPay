@@ -15,7 +15,7 @@ export default function VideoBackground() {
   }, []);
 
   useEffect(() => {
-    const hasSeenPreloader = localStorage.getItem("Global Yoga Studio_preloader_shown");
+    const hasSeenPreloader = localStorage.getItem("E-Yoga World_preloader_shown");
 
     if (!hasSeenPreloader) {
       setShowPreloader(true);
@@ -25,7 +25,7 @@ export default function VideoBackground() {
 
         const removeTimer = setTimeout(() => {
           setShowPreloader(false);
-          localStorage.setItem("Global Yoga Studio_preloader_shown", "true");
+          localStorage.setItem("E-Yoga World_preloader_shown", "true");
         }, 1000);
 
         return () => clearTimeout(removeTimer);
@@ -37,8 +37,8 @@ export default function VideoBackground() {
     }
   }, []);
 
-  const desktopVideoUrl = "https://vz-a2c5d962-9e6.b-cdn.net/8dccc254-d9b7-4476-bf4d-6d2638e9f248/play_480p.mp4";
-  const mobileVideoUrl = "https://vz-a2c5d962-9e6.b-cdn.net/8dccc254-d9b7-4476-bf4d-6d2638e9f248/play_480p.mp4";
+  const desktopVideoUrl = "https://vz-32907a33-0f1.b-cdn.net/316cbe69-b0e3-4bfe-a111-95d7cbf6a77d/play_360p.mp4";
+  const mobileVideoUrl = "https://vz-32907a33-0f1.b-cdn.net/316cbe69-b0e3-4bfe-a111-95d7cbf6a77d/play_360p.mp4";
 
   return (
     <>
